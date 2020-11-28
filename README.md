@@ -50,7 +50,7 @@ This categorization of data gives us a high level overview of price based on loc
 ---
 Average prices in different cities (Descending)
 
-![Image](https://github.com/alimahzoon/King-County-House-Sales/blob/Ali-wip/Images/4.png " Average Prices")
+![Image](https://github.com/alimahzoon/King-County-House-Sales/blob/Ali-wip/Images/avPrice.png " Average Prices")
 
 ---
 We have the information of 21,507 houses in the King county in Washington state, so if people want to know the price of a house in each city or even more accurate in each Zipcode, our real-state can find a similar house in that area and predict the price of the house.
