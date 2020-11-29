@@ -1,6 +1,6 @@
 ## King-County-House-Sales
 
-Group Members: Ali Mahzoon, and Stephen Enke
+Group Members: Ali Mahzoon, and Joey Husney
 
 -----
 ### Business Problem
