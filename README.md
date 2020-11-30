@@ -56,6 +56,30 @@ Average prices in different cities (Descending)
 We have the information of 21,507 houses in the King county in Washington state, so if people want to know the price of a house in each city or even more accurate in each Zipcode, our real-state can find a similar house in that area and predict the price of the house.
 The goodness of fit of our model ,R-Squared, after using stepwise selection with p-values and using interactions on our training set is 0.748.
 
+![Image](https://github.com/alimahzoon/King-County-House-Sales/blob/Ali-wip/Images/r2.png " R-Squared")
+
+The top 15 coefficients are:
+
+![Image](https://github.com/alimahzoon/King-County-House-Sales/blob/Ali-wip/Images/hc.png " Top 15 coefficients")
+
+* InterPretation:
+ *  for %1 increase in sqft_living price will be increased by 81$
+
+ * we can see the interaction of city_Federal Way and sqft_living results in decrease in price. that's why prices in cities located on the south west are less expensive than the ones located on north east.
+
+ * If the house is renovated the price will increase by 18000$
+
+ * grade is a feature of a house which is determined by the king county itself. If you want to buy a house with higher grade the house price will increase by 45000$
+ 
+ * The interesting thing is that if you are obsessed with the grade of your house, you can find houses with high grades in South West and you don't need to pay that much money for these houses.  
+
+
+The Root Mean Squared Error (RMSE) which shows how off we can be on our target variable (in this model price). It is an acceptable number to calculate prices of houses around 1MM$ (approximately %10 of the house price) but for houses with prices less tan 500k$ (rmse would be more than %20 of the house price) is not acceptable.
+
+![Image](https://github.com/alimahzoon/King-County-House-Sales/blob/Ali-wip/Images/rmse.png " RMSE")
+
+
+
 In the following picture you can see the QQ-plot to keep track of residuals.
 
 ![Image](https://github.com/alimahzoon/King-County-House-Sales/blob/Ali-wip/Images/qq.png " QQ-plot")
