@@ -46,9 +46,9 @@ The king county house sales dataset contains data from houses in the Seattle Was
 The goal of this project is give meaningful suggestions to our clients on how to increase the value of their home
 
 ## Final Modeling
+![Screenshot](model.png)
+![Screenshot](plots.png)
 ![Screenshot](coefs.png)
-![alt text](https://github.com/alimahazoon/King-County-House-Sales/blob/joey/coefs.png?raw=true)
-![alt text](https://github.com/alimahazoon/King-County-House-Sales/blob/joey/plots.png?raw=true)
 ### Recommendations 
 - We have found that square footage is key in raising market selling price, therefore people should try to maximize the square footage of their home to increase their value
 - We recommend that all of our customers increase the condition of their home. Each point increase in condition increases the value of the home on average by $25,200
