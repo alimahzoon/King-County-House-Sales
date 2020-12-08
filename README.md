@@ -46,7 +46,7 @@ The king county house sales dataset contains data from houses in the Seattle Was
 The goal of this project is give meaningful suggestions to our clients on how to increase the value of their home
 
 ## Final Modeling
-![alt text](https://github.com/alimahazoon/King-County-House-Sales/blob/joey/model.png?raw=true)
+![Screenshot](coefs.png)
 ![alt text](https://github.com/alimahazoon/King-County-House-Sales/blob/joey/coefs.png?raw=true)
 ![alt text](https://github.com/alimahazoon/King-County-House-Sales/blob/joey/plots.png?raw=true)
 ### Recommendations 
